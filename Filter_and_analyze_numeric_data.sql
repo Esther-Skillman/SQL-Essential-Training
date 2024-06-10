@@ -4,6 +4,7 @@ Create Date: 10/06/2024
 Description: How many invoices were billed to Brussels, Orlando or Paris?
 */
 
+-- % I dont care what comes next
 SELECT
 	InvoiceDate,
 	BillingAddress,
@@ -12,6 +13,6 @@ SELECT
 FROM
 	Invoice
 WHERE
-	BillingCity IN('Brussels','Orlando','Paris')
+	BillingCity LIKE 'B%'
 ORDER BY
 	InvoiceDate
