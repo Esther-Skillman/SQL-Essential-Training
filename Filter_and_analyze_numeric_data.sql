@@ -1,7 +1,7 @@
 /*
 Created By: Esther Skillman
 Create Date: 10/06/2024
-Description: Customers who purchased two songs at $0.99 each
+Description: How many invoices were billed to Brussels, Orlando or Paris?
 */
 
 SELECT
@@ -12,6 +12,6 @@ SELECT
 FROM
 	Invoice
 WHERE
-	total = 1.98
+	BillingCity IN('Brussels','Orlando','Paris')
 ORDER BY
 	InvoiceDate
