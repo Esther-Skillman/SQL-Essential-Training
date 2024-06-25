@@ -1,7 +1,7 @@
 /*
 Created By: Esther Skillman
 Create Date: 10/06/2024
-Description: How many invoices were billed to Brussels, Orlando or Paris?
+Description: How many invoices were billed to places that have B?
 */
 
 -- % I dont care what comes next
