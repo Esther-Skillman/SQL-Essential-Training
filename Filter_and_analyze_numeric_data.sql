@@ -13,6 +13,6 @@ SELECT
 FROM
 	Invoice
 WHERE
-	BillingCity LIKE 'B%'
+	BillingCity LIKE '%b%'
 ORDER BY
 	InvoiceDate
